@@ -1,0 +1,13 @@
+.mery{
+    display: flex;
+}
+.button1:hover{
+    border-style: double;
+    border-color: red;
+    border: 5px double red;
+}
+.button2:hover{
+    border-style: double;
+    border-color: red; 
+    border: 5px double red;
+}

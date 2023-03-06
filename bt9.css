@@ -1,0 +1,9 @@
+.button1:hover{
+    border-style: double;
+    border-color: red;
+}
+.button2:hover{
+    border-style: double;
+    border-color: red; 
+    display: inline-flex;
+}
