@@ -1,5 +1,6 @@
 .mery{
     display: flex;
+    justify-content: center;
 }
 .button1:hover{
     border-style: double;
