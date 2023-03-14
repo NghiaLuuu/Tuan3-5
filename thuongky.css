@@ -1,0 +1,362 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main {}
+
+#header {
+    height: 70px;
+    position: relative;
+}
+
+#header .search-btn {
+    position: absolute;
+    line-height: 50px;
+    top: 10px;
+    right: 210px;
+
+}
+
+#header .logo {
+    position: absolute;
+    top: 10px;
+    right: 50%;
+    left: 40%;
+}
+
+
+#nav {
+    position: absolute;
+    display: inline-block;
+    list-style-type: none;
+    left: 120px;
+}
+
+#nav>li {
+    display: inline-block;
+}
+
+#nav>li>a {
+    color: grey;
+
+}
+
+#nav li a {
+    display: block;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 0 15px;
+    font-size: 25px;
+}
+
+#slider {
+    margin-top: 50px;
+    position: relative;
+    height: 50px;
+}
+
+#slider-nav {
+    display: inline-block;
+    list-style-type: none;
+    position: absolute;
+    left: 125px;
+}
+
+#slider-nav li {
+    display: inline-block;
+    line-height: 50px;
+}
+
+#slider-nav li a {
+    display: inline;
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+#content {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    float: left;
+}
+
+#content .content-img {
+    display: flex;
+    flex-flow: column;
+    width: 20%;
+    position: absolute;
+    left: 120px;
+
+}
+
+#content .content-img img {
+    width: 100px;
+    margin: 5px;
+}
+
+#content .img-center {
+    position: absolute;
+    top: 0;
+    left: 270px;
+    width: 40%;
+}
+
+#content .img-center .name {
+    background-color: rgb(228, 149, 2);
+    width: 100px;
+    line-height: 30px;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 20%;
+
+}
+
+#content .content-product {
+    position: absolute;
+    width: 40%;
+    top: 0px;
+    right: 0px;
+}
+
+
+.content-btn {
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+
+.content-btn .btn-add {
+    width: 250px;
+    line-height: 50px;
+    position: absolute;
+    top: 20px;
+    text-align: center;
+    border: 1px solid green;
+    color: green;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.content-btn .btn-add img {
+    position: absolute;
+    top: 3px;
+    left: 25px;
+    right: 0;
+    bottom: 0;
+}
+
+.content-btn .btn-checkout {
+    width: 250px;
+    line-height: 50px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    top: 20px;
+    right: 90px;
+}
+
+#product {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0;
+}
+
+#product h1 {
+    font-size: 40px;
+}
+
+#product .product-list {
+    margin-top: 48px;
+    overflow: hidden;
+}
+
+#product .product-item {
+    width: calc(100/4);
+    float: left;
+    margin: 10px;
+}
+
+#product .item-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#product .product-item img {
+    float: right;
+}
+
+#product .product-item p strong {
+    font-size: 30px;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+#product .product-nav .product-nav-list {
+    display: inline-block;
+    list-style-type: none;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+
+.product-nav-list li {
+    display: inline-block;
+    line-height: 70px;
+    margin: 15px 30px;
+    padding: 0px 50px;
+    color: rgb(12, 206, 12);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 7px;
+
+}
+
+#intro {
+    width: 80%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0px;
+}
+
+#intro .intro-list {
+    width: 50%;
+    float: left;
+    margin-top: 40px;
+}
+
+#intro .intro-item {
+    margin-top: 25px;
+}
+
+#intro .intro-item .tiltle {
+    font-weight: bold;
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+#intro .intro-item .intro-content {
+    padding: 5px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: grey;
+}
+
+#ingle {
+    width: 80%;
+  
+    margin-left: auto;
+    margin-right: auto;
+}
+#ingle h1{
+    font-size: 40px;
+}
+
+#ingle .ingle-list {
+    margin-top: 48px;
+    overflow: hidden;
+}
+
+#ingle .ingle-item {
+    width: 30%;
+    float: left;
+    margin-right: 15px;
+}
+.ingle-item strong{
+    font-size: 25px;
+    font-weight: 800;
+    color: #000;
+
+}
+.ingle-item p {
+    color: grey;
+    padding-top: 10px;
+    
+}
+#video{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    position: relative;
+}
+#video h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#video .video-img p{
+    width: 150px;
+    line-height: 50px;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    bottom: 300px;
+    left: 40%;
+}
+
+#value{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    
+}
+#value b{
+    float: right;
+    color: greenyellow;
+    width: 150px;
+   line-height: 30px;
+   text-align: center;
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+#value h1{
+    font-size: 40px;
+    margin: 10px 0;
+}
+#value .value-star{
+    width: 30%;
+    float: left;
+    margin-top: 20px;
+}
+#value .value-star p{
+    margin: 10px 0;
+} 
+#value .value-star span{
+    font-size: 15px;
+    font-weight: 400;
+    color: grey;
+}
+#value .value-comment{
+    width: 70%;
+    float: left;
+}#value .value-comment .comment-item{
+    margin: 20px;
+}
+#value .value-comment p{
+    margin-left: 60px;
+    margin-top: -40px;
+    font-size: 20px;
+    font-weight: bold;
+}#value .value-comment span{
+    margin-top: 15px;
+    
+    color: grey;
+}
